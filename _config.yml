@@ -53,9 +53,16 @@ baseurl: ""
 # !! You don't need to change any of the configuration flags below !!
 #
 
-markdown: redcarpet
-highlighter: pygments
+markdown: kramdown
+
+# highlighter: pygments
+# highlight: true
 permalink: /:title/
+
+# PlantUML
+plantuml:
+  plantuml_jar: _lib/plantuml.jar     # path to plantuml jar
+  tmp_folder: _plantuml               # tmp folder to put generated image files
 
 # The release of Jekyll Now that you're using
 version: v1.1.0
@@ -65,9 +72,7 @@ sass:
   style: :expanded # You might prefer to minify using :compressed
 
 # Use the following plug-ins
-＃gems:
-＃  - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
-＃  - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
+
 
 # Exclude these files from your production _site
 exclude:
