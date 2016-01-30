@@ -64,6 +64,7 @@ plantuml:
   plantuml_jar: _lib/plantuml.jar     # path to plantuml jar
   tmp_folder: _plantuml               # tmp folder to put generated image files
 
+
 # The release of Jekyll Now that you're using
 version: v1.1.0
 
